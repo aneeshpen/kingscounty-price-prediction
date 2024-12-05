@@ -1,4 +1,4 @@
-# King's County Housing Data Analysis
+# King's County Housing Price Prediction
 
 This repository contains a Jupyter Notebook (`kingcounty.ipynb`) focused on analyzing housing data from King's County. The analysis leverages Python libraries like Pandas, NumPy, Seaborn, and Matplotlib for data processing, visualization, and exploration.
 
