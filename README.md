@@ -8,7 +8,6 @@ This repository contains a Jupyter Notebook (`kingcounty.ipynb`) focused on anal
 - [Overview](#overview)
 - [Requirements](#requirements)
 - [Dataset](#dataset)
-- [Installation](#installation)
 - [Code Explanation](#code-explanation)
   - [Data Preprocessing](#data-preprocessing)
   - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
@@ -62,14 +61,6 @@ Each dataset includes the following columns:
 - **date**: The date when the data was recorded.
 
 You can adjust the file paths in the script to match the location of your datasets.
-
----
-
-## Installation
-
-1. Clone this repository or download the files to your local machine.
-2. Ensure you have the required dependencies installed (see the **Requirements** section).
-3. Update the file paths for the training and testing datasets in the script.
 
 ---
 
@@ -136,24 +127,17 @@ The results for each model are printed, comparing the performance across differe
 
 ## How to Run
 
-1. **Ensure Dependencies are Installed**:
-   Make sure all required Python libraries are installed by running the following command in your terminal:
-   
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Update Dataset File Paths**:
+1. **Dataset File Paths**:
    Ensure the paths to the `df_train.csv` and `df_test.csv` files are correctly specified in the code.
 
-3. **Run the Script**:
+2. **Run the Script**:
    Once the datasets are set up and dependencies are installed, you can run the script using the following command:
 
    ```bash
    python house_price_prediction.py
    ```
 
-4. **View Results**:
+3. **View Results**:
    The script will print the performance metrics for each model on both the validation and test datasets.
 
 ---
